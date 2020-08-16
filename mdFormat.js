@@ -1,14 +1,27 @@
-const readmeTemplate= data =>{
-    console.log(typeof(data)+data);
-    console.log(data.license);
+const readmeTemplate= (extraData,data) =>{
+
+    console.log("5."+data.license);
+    console.log("6."+data);
+    console.log("7."+extraData);
+    var license;
+    if(data.license === "Create your own"){
+        license = extraData.cusLicense;
+    }
+    else{
+        license = data.license
+    }
+
+
     return `
 # Porject Title
-# ${data.title}
+${data.title}
 
-__Description__
+![License: None](https://img.shields.io/badge/License-${license}-brightgreen)
+
+## Description
 ${data.desc}
 
-## table of contents
+## Table of contents
 * [Install](#installation)
 
 * [Usage](#Usage)
@@ -19,45 +32,29 @@ ${data.desc}
 
 * [Tests](#tests)
 
-* [Questions](#Additional questions?)
+* [Questions](#Questions?)
 
 
+## __Installation__
+    ${data.install}
 
+### __Usage__
+    ${data.usage}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__Installation__
-${data.install}
-
-__Usage__
-${data.usage}
-
-__License__
+### __License__
         
-This project is licensed under ${data.license}
+This project is licensed under ${license}
 
-__Contributors__
-${data.conGuide}
+### __Contributors__
+    ${data.conGuide}
 
-__Tests__
-${data.testInst}
+### __Tests__
+    ${data.testInst}
 
-__Additional questions__
+### __Questions__
 
 If you have any questions about the repo, open an issue or contact me direct at ${data.uEmail}.
-You can find more of my work at [${data.gUser}](https://github.com/${data.gUser}/).
+You can find more of my work in my Github [${data.gUser}](https://github.com/${data.gUser}/).
 `
 }
 
