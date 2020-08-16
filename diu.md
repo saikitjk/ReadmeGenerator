@@ -16,44 +16,27 @@ no
 
 * [Tests](#tests)
 
-* [Questions](#Additional questions?)
+* [Questions](#Questions?)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__Installation__
+### __Installation__
 haha
 
-__Usage__
+### __Usage__
 yes
 
-__License__
+### __License__
         
 This project is licensed under MIT
 
-__Contributors__
+### __Contributors__
 ll
 
-__Tests__
+### __Tests__
 dllm
 
-__Additional questions__
+### __Questions__
 
 If you have any questions about the repo, open an issue or contact me direct at diu@diu.com.
 You can find more of my work at [jk](https://github.com/jk/).
