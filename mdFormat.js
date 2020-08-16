@@ -5,8 +5,6 @@ const readmeTemplate= data =>{
         # Porject Title
         # ${data.title}
 
-        ![License: ${}]
-
         __Description__
         ${data.desc}
 
@@ -44,7 +42,6 @@ const readmeTemplate= data =>{
 
         If you have any questions about the repo, open an issue or contact me direct at ${data.uEmail}.
         You can find more of my work at [${data.gUser}](https://github.com/${data.gUser}/).
-
     `
 }
 
