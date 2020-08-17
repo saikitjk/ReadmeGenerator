@@ -1,14 +1,16 @@
 const readmeTemplate= (extraData,data) =>{
 
-    console.log("5."+data.license);
-    console.log("6."+data);
-    console.log("7."+extraData);
+ 
     var license;
-    if(data.license === "Create your own"){
+    if(data.license[0] === "Create your own"){
         license = extraData.cusLicense;
+        console.log("custom license "+ license);
     }
     else{
-        license = data.license
+        license = data.license;
+        console.log(data.license);
+        console.log(license);
+        console.log("preset license "+ license);
     }
 
 

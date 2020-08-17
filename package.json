@@ -18,6 +18,7 @@
   "homepage": "https://github.com/saikitjk/ReadmeGenerator#readme",
   "dependencies": {
     "badge-maker": "^3.2.0",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "stringify-object": "^3.3.0"
   }
 }

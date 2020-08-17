@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const readmeTemplate = require("./mdFormat");
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
+const stringifyObject = require('stringify-object');
 
 function extraQuestion(){
     return inquirer.prompt(
@@ -71,29 +72,31 @@ function promptUser() {
         
 
     async function init() {
-        //console.log("hi")
+
         try {
           const data = await promptUser();
-            const dataCheck = JSON.stringify(data.license);
+            //console.log("1. "+data.license);
+            //console.log("type of data.license "+ typeof data.license);
+            const dataCheck = data.license;
 
-            if(dataCheck === "Create your own"){
+            //console.log("type of dataCheck "+ typeof dataCheck)
+            //console.log("5. "+ dataCheck );
+
+
+            if(dataCheck[0] === "Create your own"){
                 const extraData = await extraQuestion();
-                console.log("1"+extraData.cusLicense);
-                console.log("2"+ data.license);
-                console.log("2.5"+ typeof data.license )
+              
                 const template = readmeTemplate(extraData,data);
                 const filename = data.title;
                 await writeFileAsync(filename+".md", template);
-            
+                //console.log("yes");
                 console.log("Readme file created successfully");
 
              }
-             else if(dataCheck !== "Create your own"){
-          //const extraData = await extraQuestion();
+             else if(dataCheck[0] !== "Create your own"){
+
                 const extraData = null;
-                console.log("3"+extraData);
-                console.log("4"+ data.license);
-                console.log("4.5"+ typeof data.license )
+                //console.log("no");
                 const template = readmeTemplate(extraData,data);
                 const filename = data.title;
                 await writeFileAsync(filename+".md", template);

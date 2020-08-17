@@ -1,8 +1,8 @@
 
 # Porject Title
+hahaha
 
-
-![License: None](https://img.shields.io/badge/License-Create your own-brightgreen)
+![License: None](https://img.shields.io/badge/License-BDS3-brightgreen)
 
 ## Description
 
@@ -29,7 +29,7 @@
 
 ### __License__
         
-This project is licensed under Create your own
+This project is licensed under BDS3
 
 ### __Contributors__
     
@@ -40,4 +40,4 @@ This project is licensed under Create your own
 ### __Questions__
 
 If you have any questions about the repo, open an issue or contact me direct at .
-You can find more of my work in my Github [](https://github.com//).
+You can find more of my work in my Github [jk](https://github.com/jk/).

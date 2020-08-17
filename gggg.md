@@ -1,8 +1,8 @@
 
 # Porject Title
-qwe
+gggg
 
-![License: None](https://img.shields.io/badge/License-MIT-brightgreen)
+![License: None](https://img.shields.io/badge/License-omgggg-brightgreen)
 
 ## Description
 
@@ -29,7 +29,7 @@ qwe
 
 ### __License__
         
-This project is licensed under MIT
+This project is licensed under omgggg
 
 ### __Contributors__
     
@@ -40,4 +40,4 @@ This project is licensed under MIT
 ### __Questions__
 
 If you have any questions about the repo, open an issue or contact me direct at .
-You can find more of my work in my Github [ll](https://github.com/ll/).
+You can find more of my work in my Github [jk](https://github.com/jk/).
