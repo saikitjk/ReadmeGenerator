@@ -4,13 +4,13 @@ const readmeTemplate= (extraData,data) =>{
     var license;
     if(data.license[0] === "Create your own"){
         license = extraData.cusLicense;
-        console.log("custom license "+ license);
+        //console.log("custom license "+ license);
     }
     else{
         license = data.license;
-        console.log(data.license);
-        console.log(license);
-        console.log("preset license "+ license);
+        // console.log(data.license);
+        // console.log(license);
+        // console.log("preset license "+ license);
     }
 
 

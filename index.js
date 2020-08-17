@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const readmeTemplate = require("./mdFormat");
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
-const stringifyObject = require('stringify-object');
+
 
 function extraQuestion(){
     return inquirer.prompt(
