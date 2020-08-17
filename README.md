@@ -1,12 +1,16 @@
 # ReadmeGenerator
 
-![License: None](https://img.shields.io/badge/License--brightgreen)
+![License: None](https://img.shields.io/badge/License-JK-brightgreen)
 
 ## Description
 This Readme generator is a CLI application that helps users  quickly create a professional README for a project.
 
 ## Demo
-<iframe src="https://drive.google.com/file/d/1cA9iO_rHOPvi6n-X92jT8BCtyjEPQMTV/preview" width="640" height="480"></iframe>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1cA9iO_rHOPvi6n-X92jT8BCtyjEPQMTV/preview" width="640" height="480"></iframe>
+</figure>
+
 
 ## Table of contents
 * [Install](#installation)
