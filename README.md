@@ -7,9 +7,7 @@ This Readme generator is a CLI application that helps users  quickly create a pr
 
 ## Demo
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1cA9iO_rHOPvi6n-X92jT8BCtyjEPQMTV/preview" width="640" height="480"></iframe>
-</figure>
+    https://drive.google.com/file/d/1cA9iO_rHOPvi6n-X92jT8BCtyjEPQMTV/preview
 
 
 ## Table of contents
